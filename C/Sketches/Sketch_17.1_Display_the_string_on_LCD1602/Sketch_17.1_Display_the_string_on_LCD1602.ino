@@ -7,8 +7,8 @@
 #include <LiquidCrystal_I2C.h>
 #include <Wire.h>
 
-#define SDA 13                    //Define SDA pins
-#define SCL 14                    //Define SCL pins
+#define SDA 5                    //Define SDA pins
+#define SCL 4                    //Define SCL pins
 
 /*
  * note:If lcd1602 uses PCF8574T, IIC's address is 0x27,

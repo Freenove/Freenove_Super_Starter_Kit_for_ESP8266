@@ -212,7 +212,7 @@ Code
 
 Move the program folder "Freenove_Ultimate_Starter_Kit_for_ESP8266/Python/Python_Codes" to disk(D) in advance with the path of "D:/Micropython_Codes".
 
-Open "Thonny", click "This computer" -> "D:" -> "Micropython_Codes" -> "18.2_Servo_Knop". Select "myservo.py", right click your mouse to select "Upload to /", wait for "myservo.py" to be uploaded to ESP8266 and then double click "Servo_Knop.py". 
+Open "Thonny", click "This computer" -> "D:" -> "Micropython_Codes" -> "16.2_Servo_Knop". Select "myservo.py", right click your mouse to select "Upload to /", wait for "myservo.py" to be uploaded to ESP8266 and then double click "Servo_Knop.py". 
  
 Servo_Knop
 --------------------------
@@ -224,7 +224,7 @@ Click "Run current script", twist the potentiometer back and forth, and the serv
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/18.2_Servo_Knop/Servo_Knop.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/16.2_Servo_Knop/Servo_Knop.py
     :linenos: 
     :language: python
     :lines: 1-16

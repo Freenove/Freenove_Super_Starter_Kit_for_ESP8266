@@ -231,7 +231,7 @@ Compile and upload the code to ESP8266, twist the potentiometer back and forth, 
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_18.2_Control_Servo_by_Potentiometer/Sketch_18.2_Control_Servo_by_Potentiometer.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_16.2_Control_Servo_by_Potentiometer/Sketch_16.2_Control_Servo_by_Potentiometer.ino
     :linenos: 
     :language: c
     :lines: 1-29

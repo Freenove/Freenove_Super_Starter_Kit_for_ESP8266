@@ -253,7 +253,7 @@ rendering
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_23.2_Control_LED_through_Infrared_Remote/Sketch_23.2_Control_LED_through_Infrared_Remote.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_19.2_Control_LED_through_Infrared_Remote/Sketch_19.2_Control_LED_through_Infrared_Remote.ino
     :linenos: 
     :language: c
     :lines: 1-55
@@ -261,7 +261,7 @@ The following is the program code:
 
 The handleControl() function is used to execute events corresponding to infrared code values. Every time when the function is called, the buzzer sounds once and determine the brightness of the LED based on the infrared key value. If the key value is not "0", "1", "2", "3", the buzzer sounds once, but the brightness of LED will not change.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_23.2_Control_LED_through_Infrared_Remote/Sketch_23.2_Control_LED_through_Infrared_Remote.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_19.2_Control_LED_through_Infrared_Remote/Sketch_19.2_Control_LED_through_Infrared_Remote.ino
     :linenos: 
     :language: c
     :lines: 35-55
@@ -269,7 +269,7 @@ The handleControl() function is used to execute events corresponding to infrared
 
 Each time when the command is received, the function above will be called in the loop() function.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_23.2_Control_LED_through_Infrared_Remote/Sketch_23.2_Control_LED_through_Infrared_Remote.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_19.2_Control_LED_through_Infrared_Remote/Sketch_19.2_Control_LED_through_Infrared_Remote.ino
     :linenos: 
     :language: c
     :lines: 28-33

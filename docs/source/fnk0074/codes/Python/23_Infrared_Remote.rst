@@ -215,7 +215,7 @@ The Code controls the brightness of the LED by determining the key value of the 
 
 Move the program folder "Freenove_Ultimate_Starter_Kit_for_ESP8266/Python/Python_Codes" to disk(D) in advance with the path of "D:/Micropython_Codes".
 
-Open "Thonny", click "This computer" -> "D:" -> "Micropython_Codes" -> "23.2_Control_LED_through_Infrared_Remote". Select "irrecvdata.py", right click your mouse to select "Upload to /", wait for "irrecvdata.py" to be uploaded to ESP8266 and then double click "Control_LED_through_Infrared_Remote.py". 
+Open "Thonny", click "This computer" -> "D:" -> "Micropython_Codes" -> "19.2_Control_LED_through_Infrared_Remote". Select "irrecvdata.py", right click your mouse to select "Upload to /", wait for "irrecvdata.py" to be uploaded to ESP8266 and then double click "Control_LED_through_Infrared_Remote.py". 
 
 Control_LED_through_Infrared_Remote
 ------------------------------------------
@@ -232,7 +232,7 @@ Rendering
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/23.2_Control_LED_through_Infrared_Remote/Control_LED_through_Infrared_Remote.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/19.2_Control_LED_through_Infrared_Remote/Control_LED_through_Infrared_Remote.py
     :linenos: 
     :language: python
     :lines: 1-35
@@ -240,7 +240,7 @@ The following is the program code:
 
 The handleControl() function is used to execute events corresponding to infrared code values. Every time when the function is called, the buzzer sounds once and determines the brightness of the LED based on the infrared key value. If the key value is not "0", "1", "2", "3", the buzzer sounds once, but the brightness of LED will not change.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/23.2_Control_LED_through_Infrared_Remote/Control_LED_through_Infrared_Remote.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/19.2_Control_LED_through_Infrared_Remote/Control_LED_through_Infrared_Remote.py
     :linenos: 
     :language: python
     :lines: 9-27
@@ -248,7 +248,7 @@ The handleControl() function is used to execute events corresponding to infrared
 
 Each time the key value of IR remote is received, function handleControl() will be called to process it.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/23.2_Control_LED_through_Infrared_Remote/Control_LED_through_Infrared_Remote.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/19.2_Control_LED_through_Infrared_Remote/Control_LED_through_Infrared_Remote.py
     :linenos: 
     :language: python
     :lines: 28-35

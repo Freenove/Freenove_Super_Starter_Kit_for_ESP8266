@@ -87,7 +87,7 @@ Code
 
 Move the program folder "Freenove_Ultimate_Starter_Kit_for_ESP8266/Python/Python_Codes" to disk(D) in advance with the path of "D:/Micropython_Codes".
 
-Open "Thonny", click "This computer" -> "D:" -> "Micropython_Codes" -> "18.1_Servo_Sweep". Select "myservo.py", right click your mouse to select "Upload to /", wait for "myservo.py" to be uploaded to ESP8266 and then double click "Servo_Sweep.py". 
+Open "Thonny", click "This computer" -> "D:" -> "Micropython_Codes" -> "16.1_Servo_Sweep". Select "myservo.py", right click your mouse to select "Upload to /", wait for "myservo.py" to be uploaded to ESP8266 and then double click "Servo_Sweep.py". 
 
 Servo_Sweep
 -------------------------
@@ -102,7 +102,7 @@ Click "Run current script", the Servo will rotate from 0 degrees to 180 degrees 
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/18.1_Servo_Sweep/Servo_Sweep.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/16.1_Servo_Sweep/Servo_Sweep.py
     :linenos: 
     :language: python
     :lines: 1-17
@@ -110,7 +110,7 @@ The following is the program code:
 
 Import myservo module.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/18.1_Servo_Sweep/Servo_Sweep.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/16.1_Servo_Sweep/Servo_Sweep.py
     :linenos: 
     :language: python
     :lines: 1-1
@@ -118,7 +118,7 @@ Import myservo module.
 
 Initialize pins of the servo and set the starting point of the servo to 0 degree.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/18.1_Servo_Sweep/Servo_Sweep.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/16.1_Servo_Sweep/Servo_Sweep.py
     :linenos: 
     :language: python
     :lines: 4-6
@@ -126,7 +126,7 @@ Initialize pins of the servo and set the starting point of the servo to 0 degree
 
 Control the servo to rotate to a specified angle within the range of 0-180 degrees.  
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/18.1_Servo_Sweep/Servo_Sweep.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/16.1_Servo_Sweep/Servo_Sweep.py
     :linenos: 
     :language: python
     :lines: 11-11
@@ -134,7 +134,7 @@ Control the servo to rotate to a specified angle within the range of 0-180 degre
 
 Use two for loops. The first one controls the servo to rotate from 0 degree to 180 degrees while the other controls it to rotate back from 180 degrees to 0 degree.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/18.1_Servo_Sweep/Servo_Sweep.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/16.1_Servo_Sweep/Servo_Sweep.py
     :linenos: 
     :language: python
     :lines: 10-15

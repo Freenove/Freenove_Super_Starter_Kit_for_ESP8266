@@ -108,7 +108,7 @@ Compile and upload the code to ESP8266, the servo will rotate from 0 degrees to 
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_18.1_Servo_Sweep/Sketch_18.1_Servo_Sweep.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_16.1_Servo_Sweep/Sketch_16.1_Servo_Sweep.ino
     :linenos: 
     :language: c
     :lines: 1-44
@@ -116,7 +116,7 @@ The following is the program code:
 
 Servo uses the Servo library, like the following reference to Servo library:
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_18.1_Servo_Sweep/Sketch_18.1_Servo_Sweep.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_16.1_Servo_Sweep/Sketch_16.1_Servo_Sweep.ino
     :linenos: 
     :language: c
     :lines: 7-7
@@ -124,7 +124,7 @@ Servo uses the Servo library, like the following reference to Servo library:
 
 Servo library provides the Servo class that controls it. Servo class must be instantiated before using:
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_18.1_Servo_Sweep/Sketch_18.1_Servo_Sweep.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_16.1_Servo_Sweep/Sketch_16.1_Servo_Sweep.ino
     :linenos: 
     :language: c
     :lines: 9-9
@@ -132,7 +132,7 @@ Servo library provides the Servo class that controls it. Servo class must be ins
 
 Set the control servo motor pin, the time range of high level.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_18.1_Servo_Sweep/Sketch_18.1_Servo_Sweep.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_16.1_Servo_Sweep/Sketch_16.1_Servo_Sweep.ino
     :linenos: 
     :language: c
     :lines: 13-13
@@ -140,7 +140,7 @@ Set the control servo motor pin, the time range of high level.
 
 After initializing the servo, you can control the servo to rotate to a specific angle:
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_18.1_Servo_Sweep/Sketch_18.1_Servo_Sweep.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_16.1_Servo_Sweep/Sketch_16.1_Servo_Sweep.ino
     :linenos: 
     :language: c
     :lines: 22-22

@@ -81,7 +81,7 @@ The second way, open Arduino IDE, click Sketch -> Include Library -> Add .ZIP Li
 Install the Arduino IDE plug-in Arduino-ESP8266Fs-Plugin
 ----------------------------------------------------------------
 
-In this tutorial, find a folder named "./Sketches/ Sketch_31.1_play_music/tools" under that directory and copy that folder into the Arduino IDE environment directory.
+In this tutorial, find a folder named "./Sketches/ Sketch_23.1_play_music/tools" under that directory and copy that folder into the Arduino IDE environment directory.
 
 The details are as follows:
 
@@ -105,7 +105,7 @@ Finally, restart the Arduino IED
 Upload music
 ------------------------
 
-Before uploading the music file, in the path ". /Sketches/Sketch_31.1_Play_music/PlayMP3/data" folder, save the music file that needs to be uploaded and make sure the file content is not empty.
+Before uploading the music file, in the path ". /Sketches/Sketch_23.1_Play_music/PlayMP3/data" folder, save the music file that needs to be uploaded and make sure the file content is not empty.
 
 If you do not have a" data" folder, you need to create a" data" folder and put MP3 or WAV files in the "data" folder. In addition, the audio file size cannot exceed the selected FlashSize. 
 
@@ -137,7 +137,7 @@ After uploading, upload the code to the ESP8266 development.
 
 Upload following sketch:
 
-**Freenove_Ultimate_Starter_Kit_for_ESP8266\\C\\Sketch_31.1_Play_music\\PlayMP3**
+**Freenove_Ultimate_Starter_Kit_for_ESP8266\\C\\Sketch_23.1_Play_music\\PlayMP3**
 
 Sketch_Play_music
 -------------------------------
@@ -151,7 +151,7 @@ If no music is played, check whether the hardware circuit is properly connected.
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_31.1_Play_music/PlayMP3/PlayMP3.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_23.1_Play_music/PlayMP3/PlayMP3.ino
     :linenos: 
     :language: c
     :lines: 1-51
@@ -172,7 +172,7 @@ Check whether the file has finished playing in the main loop function.
 
 Play the music again after the button is pressed. 
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_31.1_Play_music/PlayMP3/PlayMP3.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_23.1_Play_music/PlayMP3/PlayMP3.ino
     :linenos: 
     :language: c
     :lines: 44-49

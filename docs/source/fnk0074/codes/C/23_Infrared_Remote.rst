@@ -112,7 +112,7 @@ Download the code to ESP8266, open the serial port monitor, set the baud rate to
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_23.1_Infrared_Remote_Control/Sketch_23.1_Infrared_Remote_Control.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_19.1_Infrared_Remote_Control/Sketch_19.1_Infrared_Remote_Control.ino
     :linenos: 
     :language: c
     :lines: 1-30
@@ -120,7 +120,7 @@ The following is the program code:
 
 First, include header file. Each time you use the infrared library, you need to include the header file at the beginning of the program.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_23.1_Infrared_Remote_Control/Sketch_23.1_Infrared_Remote_Control.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_19.1_Infrared_Remote_Control/Sketch_19.1_Infrared_Remote_Control.ino
     :linenos: 
     :language: c
     :lines: 7-10
@@ -128,7 +128,7 @@ First, include header file. Each time you use the infrared library, you need to 
 
 Second, define an infrared receive pin and associates it with the receive class. Apply a decode_results to decode the received infrared value.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_23.1_Infrared_Remote_Control/Sketch_23.1_Infrared_Remote_Control.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_19.1_Infrared_Remote_Control/Sketch_19.1_Infrared_Remote_Control.ino
     :linenos: 
     :language: c
     :lines: 12-14
@@ -136,7 +136,7 @@ Second, define an infrared receive pin and associates it with the receive class.
 
 Third, enable infrared reception function, if you do not use this function, you won't receive the value from the infrared remote control.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_23.1_Infrared_Remote_Control/Sketch_23.1_Infrared_Remote_Control.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_19.1_Infrared_Remote_Control/Sketch_19.1_Infrared_Remote_Control.ino
     :linenos: 
     :language: c
     :lines: 18-18
@@ -144,7 +144,7 @@ Third, enable infrared reception function, if you do not use this function, you 
 
 Finally, put the received data into the results class and print out the data through the serial port. Note that you must use resume() to release the infrared receive function every time when you receive data, otherwise you can only use the infrared receive function once and cannot receive the data next time.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_23.1_Infrared_Remote_Control/Sketch_23.1_Infrared_Remote_Control.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_19.1_Infrared_Remote_Control/Sketch_19.1_Infrared_Remote_Control.ino
     :linenos: 
     :language: c
     :lines: 23-30

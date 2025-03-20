@@ -89,7 +89,7 @@ Code
 
 Move the program folder "Freenove_Ultimate_Starter_Kit_for_ESP8266/Python/Python_Codes" to disk(D) in advance with the path of "D:/Micropython_Codes".
 
-Open "Thonny", click "This computer" -> "D:" -> "Micropython_Codes" -> "23.1_Infrared_Remote". Select "irrecvdata.py", right click your mouse to select "Upload to /", wait for "irrecvdata.py" to be uploaded to ESP8266 and then double click "Infrared_Remote.py".
+Open "Thonny", click "This computer" -> "D:" -> "Micropython_Codes" -> "19.1_Infrared_Remote". Select "irrecvdata.py", right click your mouse to select "Upload to /", wait for "irrecvdata.py" to be uploaded to ESP8266 and then double click "Infrared_Remote.py".
 
 Infrared_Remote
 ---------------------------
@@ -104,7 +104,7 @@ Click "Run current script", press the key of the infrared remote and the key val
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/23.1_Infrared_Remote/Infrared_Remote.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/19.1_Infrared_Remote/Infrared_Remote.py
     :linenos: 
     :language: python
     :lines: 1-10
@@ -112,7 +112,7 @@ The following is the program code:
 
 Import the infrared decoder. 
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/23.1_Infrared_Remote/Infrared_Remote.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/19.1_Infrared_Remote/Infrared_Remote.py
     :linenos: 
     :language: python
     :lines: 1-1
@@ -120,7 +120,7 @@ Import the infrared decoder.
 
 Associate the infrared decoder with Pin(5).
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/23.1_Infrared_Remote/Infrared_Remote.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/19.1_Infrared_Remote/Infrared_Remote.py
     :linenos: 
     :language: python
     :lines: 1-1
@@ -128,7 +128,7 @@ Associate the infrared decoder with Pin(5).
 
 Call ir_read() to read the value of the pressed key and assign it to IRValue.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/23.1_Infrared_Remote/Infrared_Remote.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/19.1_Infrared_Remote/Infrared_Remote.py
     :linenos: 
     :language: python
     :lines: 6-6
@@ -136,7 +136,7 @@ Call ir_read() to read the value of the pressed key and assign it to IRValue.
 
 When infrared key value is obtained, print it out in "Shell".
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/23.1_Infrared_Remote/Infrared_Remote.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/19.1_Infrared_Remote/Infrared_Remote.py
     :linenos: 
     :language: python
     :lines: 5-8

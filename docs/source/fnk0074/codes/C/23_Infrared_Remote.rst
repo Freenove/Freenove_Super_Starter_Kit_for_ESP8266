@@ -1,10 +1,10 @@
 ##############################################################################
-Chapter Infrared Remote
+Chapter 19 Infrared Remote
 ##############################################################################
 
 In this chapter, we'll learn how to use an infrared remote control, and control a LED.
 
-Project Infrared Remote Control
+Project 19.1 Infrared Remote Control
 *****************************************************
 
 First, we need to understand how infrared remote control works, then get the command sent from infrared remote control.
@@ -12,25 +12,30 @@ First, we need to understand how infrared remote control works, then get the com
 Component List
 =======================================
 
-+----------------------------------+---------------------------------------+
-| ESP8266 x1                       |  USB cable                            |
-|                                  |                                       |
-| |Chapter01_00|                   |   |Chapter01_01|                      |
-+----------------------------------+---------------------------------------+
-| Breadboard x1                                                            |
-|                                                                          |
-| |Chapter01_02|                                                           |
-+----------------------+-------------------------+-------------------------+
-| Resistor 10kΩ x1     | Infrared Remote x1      | Jumper wire M/M x6      |
-|                      |                         |                         |
-| |Chapter23_02|       |  |Chapter23_01|         |     |Chapter23_00|      |
-+----------------------+-------------------------+-------------------------+
-| Infrared Remote x1                                                       |
-|                                                                          |
-| (May need CR2025 battery x1, please check the holder)                    |
-|                                                                          |
-| |Chapter23_03|                                                           |
-+--------------------------------------------------------------------------+
+.. table::
+    :width: 80%
+    :align: center
+    :class: table-line
+    
+    +----------------------------------+----------------------------------+
+    | ESP8266 x1                       |  USB cable                       |
+    |                                  |                                  |
+    | |Chapter01_00|                   |   |Chapter01_01|                 |
+    +----------------------------------+----------------------------------+
+    | Breadboard x1                                                       |
+    |                                                                     |
+    | |Chapter01_02|                                                      |
+    +----------------------+-------------------------+--------------------+
+    | Resistor 10kΩ x1     | Infrared Remote x1      | Jumper wire M/M x6 |
+    |                      |                         |                    |
+    | |Chapter23_02|       |  |Chapter23_01|         |     |Chapter23_00| |
+    +----------------------+-------------------------+--------------------+
+    | Infrared Remote x1                                                  |
+    |                                                                     |
+    | (May need CR2025 battery x1, please check the holder)               |
+    |                                                                     |
+    | |Chapter23_03|                                                      |
+    +---------------------------------------------------------------------+
 
 .. |Chapter01_00| image:: ../_static/imgs/1_LED/Chapter01_00.png
 .. |Chapter01_01| image:: ../_static/imgs/1_LED/Chapter01_01.png
@@ -70,8 +75,9 @@ Circuit
 ===============================
 
 .. list-table:: 
-   :width: 100%
+   :width: 80%
    :align: center
+   :class: table-line
 
    * -  Schematic diagram
    * -  |Chapter23_19|
@@ -99,7 +105,7 @@ Refer to the following operations:
 .. image:: ../_static/imgs/23_Infrared_Remote/Chapter23_07.png
     :align: center
 
-Sketch_Infrared_Remote_Control
+Sketch_19.1_Infrared_Remote_Control
 -------------------------------------------
 
 .. image:: ../_static/imgs/23_Infrared_Remote/Chapter23_08.png
@@ -167,7 +173,7 @@ For more information about Infrared Remote Control, please visit:
 
 https://github.com/crankyoldgit/IRremoteESP8266/tree/master/src
 
-Project Control LED through Infrared Remote
+Project 19.2 Control LED through Infrared Remote
 ******************************************************
 
 In this project, we will control the brightness of LED lights through an infrared remote control.
@@ -175,35 +181,40 @@ In this project, we will control the brightness of LED lights through an infrare
 Component List
 ===============================
 
-+----------------------------------+---------------------------------------+
-| ESP8266 x1                       |          USB cable                    |
-|                                  |                                       |
-| |Chapter01_00|                   |          |Chapter01_01|               |
-+----------------------------------+---------------------------------------+
-| Breadboard x1                                                            |
-|                                                                          |
-| |Chapter01_02|                                                           |
-+----------------------------------+---------------------------------------+
-| Active buzzer x1                 | Jumper wire M/M                       |
-|                                  |                                       |
-| |Chapter23_10|                   |  |Chapter01_05|                       |
-+----------------------+-----------+-------------+-------------------------+
-| Resistor 10kΩ x2     | Resistor 1kΩ x1         | Resistor 220Ω x1        |
-|                      |                         |                         |
-| |Chapter16_02|       |  |Chapter16_03|         |  |Chapter16_04|         |
-+----------------------+-------------------------+-------------------------+
-| NPN transistor x1    | LED x1                  | Infrared receiver x1    |
-|                      |                         |                         |
-| (S8050)              |                         |                         |
-|                      |                         |                         |
-| |Chapter23_13|       |  |Chapter23_11|         |  |Chapter23_12|         |
-+----------------------+-------------------------+-------------------------+
-| Infrared Remote x1                                                       |
-|                                                                          |
-| (May need CR2025 battery x1, please check the holder)                    |
-|                                                                          |
-| |Chapter23_14|                                                           |
-+--------------------------------------------------------------------------+
+.. table::
+    :align: center
+    :width: 80%
+    :class: table-line
+
+    +----------------------------------+---------------------------------------+
+    | ESP8266 x1                       |          USB cable                    |
+    |                                  |                                       |
+    | |Chapter01_00|                   |          |Chapter01_01|               |
+    +----------------------------------+---------------------------------------+
+    | Breadboard x1                                                            |
+    |                                                                          |
+    | |Chapter01_02|                                                           |
+    +----------------------------------+---------------------------------------+
+    | Active buzzer x1                 | Jumper wire M/M                       |
+    |                                  |                                       |
+    | |Chapter23_10|                   |  |Chapter01_05|                       |
+    +----------------------+-----------+-------------+-------------------------+
+    | Resistor 10kΩ x2     | Resistor 1kΩ x1         | Resistor 220Ω x1        |
+    |                      |                         |                         |
+    | |Chapter16_02|       |  |Chapter16_03|         |  |Chapter16_04|         |
+    +----------------------+-------------------------+-------------------------+
+    | NPN transistor x1    | LED x1                  | Infrared receiver x1    |
+    |                      |                         |                         |
+    | (S8050)              |                         |                         |
+    |                      |                         |                         |
+    | |Chapter23_13|       |  |Chapter23_11|         |  |Chapter23_12|         |
+    +----------------------+-------------------------+-------------------------+
+    | Infrared Remote x1                                                       |
+    |                                                                          |
+    | (May need CR2025 battery x1, please check the holder)                    |
+    |                                                                          |
+    | |Chapter23_14|                                                           |
+    +--------------------------------------------------------------------------+
 
 .. |Chapter01_05| image:: ../_static/imgs/1_LED/Chapter01_05.png
 .. |Chapter16_02| image:: ../_static/imgs/16_Relay_&_Motor/Chapter16_02.png
@@ -219,8 +230,9 @@ Circuit
 ===============================
 
 .. list-table:: 
-   :width: 100%
+   :width: 80%
    :align: center
+   :class: table-line
 
    * -  Schematic diagram
    * -  |Chapter23_15|
@@ -238,7 +250,7 @@ Sketch
 
 The sketch controls the brightness of the LED by determining the key value of the infrared received.
 
-Sketch_Control_LED_through_Infrared_Remote
+Sketch_19.2_Control_LED_through_Infrared_Remote
 ---------------------------------------------------
 
 .. image:: ../_static/imgs/23_Infrared_Remote/Chapter23_17.png
